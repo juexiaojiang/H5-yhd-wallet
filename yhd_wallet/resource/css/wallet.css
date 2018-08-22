@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
+  font-family: Arial, 'Microsoft YaHei';
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+input,
+textarea {
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  -moz-user-select: text;
+       user-select: text;
+  -webkit-appearance: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+textarea {
+  -webkit-appearance: none;
+  border: 1px solid;
+  border-radius: 0;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  -webkit-touch-callout: none;
+}
+em,
+i {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+}
+body{
+  position: relative;
+}
+.wallet_com-header{
+	position:relative;
+  z-index:150;
+  height:1.32rem;
+  background-color:#fff;
+}       
+h1{
+  position:relative;
+  z-index:151;
+  height: 1.32rem;
+  padding: 0 25%;
+  color: #000;
+  font-size: 0.53rem;
+  line-height: 1.32rem;
+  font-weight: normal;
+  text-align: center;
+}
+.wallet_page-browserHint {
+  position: relative;
+}
+.bg{
+  position: absolute;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.content{
+  position: relative;
+}
+.content .toper{
+  position: relative;
+  padding:2.7rem 0 1rem 0;
+  /*padding:3.87rem 3.1rem 1rem 3.1rem;*/
+}
+.content .toper .toper_title{
+  text-align: center;
+}
+.content .toper .toper_title img{
+  width: 2.37rem;
+  height: 0.63rem;
+  display: block;
+  margin: 0 auto;
+}
+.content .toper .toper_con{
+  padding-top: 0.6rem;
+  text-align: center;
+  font-size: 1.26rem;
+  line-height: 1.26rem;
+  color: rgb(172,101,25);
+}
+.content .toper .toper_text{
+  text-align: center;
+  font-size: 0.42rem;
+  color: rgb(134,96,77);
+}
+.content .toper .toper_btn{
+  margin-top: 0.56rem;
+  text-align: center;
+}
+.content .toper a{
+  position: relative;
+  display: block;
+  width: 5.01rem;
+  height: 1.37rem;
+  margin: 0 auto;
+}
+.content .toper .toper_btn .bg{
+  position: absolute;
+  z-index: 1;
+  width: 5.01rem;
+  height: 1.37rem;
+  top:0;
+  left: 0;
+}
+.content .toper .toper_btn .mask{
+  width: 5.01rem;
+  height: 1.37rem;
+  position: absolute;
+  z-index: 3;
+  top:0;
+  left: 0;
+}
+.content .toper .toper_btn span{
+  position: absolute;
+  z-index: 2;
+  display: block;
+  top:0.25rem;
+  left: 1.3rem;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #fff;
+}
+.con{
+  padding:1.1rem 0 0.8rem 0;
+}
+.con .pro_describe_toper{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 5.34rem;
+  margin: 0 auto;
+}
+.con .pro_describe_toper img{
+  display: block;
+  width: 0.81rem;
+  height: 0.78rem;
+}
+.con .pro_describe_toper span{
+  display: block;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  margin-left: 0.3rem;
+  margin-top:0.05rem;
+  color: rgb(84,73,60);
+}
+.con .pro_describe_con{
+  position: relative;
+  width: 5.55rem;
+  margin: 0.3rem auto 0 auto;
+}
+.con .pro_describe_con img{
+  display: block;
+  width: 5.29rem;
+  margin: 0 auto;
+}
+.con .pro_describe_con span{
+  position: absolute;
+  top:0.05rem;
+  left: 0.96rem;
+  z-index: 1;
+  display: block;
+  font-size: 0.42rem;
+  color: rgb(124,49,3);
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 3.30322rem;
+}
+.footer .desc_1 img{
+  display: block;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.footer .desc_1 span{
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(98,32,0);
+}
+.footer .desc_2 img{
+  display: block;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.footer .desc_2 span{
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(98,32,0);
+}
+.footer .desc_3 img{
+  display: block;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.footer .desc_3 span{
+  display: block;
+  font-size: 0.48rem;
+  color: rgb(98,32,0);
+}
+.btn{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5rem;
+}
+.btn img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn .flex-1{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.btn .flex-2{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 50%;
+}
